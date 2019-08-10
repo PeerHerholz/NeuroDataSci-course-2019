@@ -99,7 +99,7 @@ from dipy.viz import window, actor, colormap as cmap, have_fury
 from dipy.tracking.streamline import Streamlines
 
 # Enables/disables interactive visualization
-interactive = False
+interactive = True
 
 # Initialization of LocalTracking. The computation happens in the next step.
 streamlines_generator = LocalTracking(csa_peaks, classifier, seeds,
